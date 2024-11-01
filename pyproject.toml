@@ -164,3 +164,11 @@ sample = "sample:main"
 # If there are data files included in your packages that need to be
 # installed, specify them here.
 package-data = {"sample" = ["*.dat"]}
+
+[tool.poetry]
+name = "sampleproject"
+version = "3.2.0"
+description = "sample project"
+authors = [
+  "dev@test.com"
+]
